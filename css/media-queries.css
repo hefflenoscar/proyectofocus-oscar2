@@ -1,0 +1,238 @@
+@media all and (max-width: 1024px ){
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .barra-secundaria{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; 
+    }
+
+    .compras2{
+        background-color: rgba(255, 255, 255, 0.537);
+    }
+
+    nav ul li {
+        gap: .625rem;
+        margin: 0;
+    }
+
+    .conteiner-card{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .ca1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .ca2{
+        grid-column: 2/3;
+    grid-row: 1/2;
+    }
+
+    .ca3{
+        grid-column: 3/4;
+        grid-row: 1/2;
+        width: 300px;
+        height: 500px;
+    }
+
+    .ca4{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .ca5{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .ca6{
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+
+    .ca7{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .ca8{
+
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    .ca9{
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+    .ca10{
+        grid-column: 1/4;
+        grid-row: 4/5;
+        width: 300px;
+        height: 500px;
+
+    }
+    .pie-pagina{
+        display: flex;
+        flex-direction: row;
+        height: 125px;
+        justify-content: space-around;
+    }
+
+    .img{
+            width: 150px;
+        }
+
+
+        footer img{
+            width: 50px;
+        }
+
+        footer div ul li a{
+            padding: 20px;
+        } 
+    }
+
+@media all and (max-width: 768px ){
+
+    .header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        gap: 1.25rem;
+        height: 200px; 
+    }
+
+    nav ul li a{
+        margin: 0;
+    }
+    header div img{
+        width: 100px; 
+        margin: 0; 
+        }
+
+    .compras2{
+        background-color: rgba(245, 245, 245, 0.597);
+    }
+
+    .navBar{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: .625rem;
+    }
+
+    nav ul li {
+        gap: 1.25rem;
+        margin: 10px;
+    }
+
+    .barra-secundaria{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: .625rem;
+        
+    }
+    .conteiner-card{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr)
+
+    }
+
+    .ca1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+
+    .ca2{
+        grid-column: 2/3;
+    grid-row: 1/2;
+    }
+
+    .ca3{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        width: 300px;
+        height: 500px;
+    }
+
+    .ca4{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .ca5{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .ca6{
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    .ca7{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .ca8{
+
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+    .ca9{
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+    .ca10{
+        grid-column: 2/3;
+        grid-row: 5/6;
+        width: 300px;
+        height: 500px;
+
+    }
+    .pie-pagina{
+        display: flex;
+        flex-direction: column  ;
+        height: 125px;
+        justify-content: space-evenly; 
+    }
+
+    .img{
+            width: 100px;
+        }
+
+
+        footer img{
+            width: 40px;
+        }
+}
+
+@media all and (max-width: 600px){
+
+    .conteiner-card{
+        display: flex;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(10,1fr);
+    }
+}
+
+@media all and (max-width: 426px){
+    .menu-pie{
+        display: none;
+    }
+
+    .barra-secundaria{
+        display: none;
+    }
+
+    .conteiner-card{
+        justify-content: center;
+    }
+}
