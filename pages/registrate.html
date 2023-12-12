@@ -15,17 +15,17 @@
 
        <nav>
            <ul class="navBar">
-               <li><a class="activo" href="#">INICIAR SESION</a></li>
-               <li><a href="../pages/registrate.html">REGISTRATE</a></li>
+               <li><a href="../pages/inicio-sesion.html">INICIAR SESION</a></li>
+               <li><a class="activo" href="#">REGISTRATE</a></li>
                <li><a href="../pages/carrito.html">CARRITO</a></li>
        </nav>
 
     </header>
     
-    <main> 
+    <main>
         <section>
             <ul class="barra-secundaria">
-                <li><a href="../index.html">INICIO</a></li>
+                <li><a  href="../index.html">INICIO</a></li>
                 <li><a href="../pages/mujer.html">MUJER</a></li>
                 <li> <a href="../pages/hombre.html">HOMBRE</a></li>
                 <li> <a href="../pages/infantil.html">INFANTIL</a></li>
@@ -36,43 +36,40 @@
                 <li> <a href="#">AYUDA</a></li>
             </ul>
         </section>
-        <section class="boton-iniciar">
-            <div class="contenedor">
-                <div class="formulario">
+        <section class="registrate">
+            <div class="contenedor-regristro">
+                <div class="formulario-registro">
                     <form action="#">
-                        <h2>INICIAR SESION</h2>
-                        <div class="input-contenedor">
+                        <h2>REGISTRATE</h2>
+                        <div class="input-contenedor-registro">
+                            <input type="text" required>
+                            <label for="#">NOMBRE</label>
+                        </div>
+                        <div class="input-contenedor-registro">
+                            <input type="text" required>
+                            <label for="#">APELLIDO</label>
+                        </div>
+                        <div class="input-contenedor-registro">
                             <input type="email" required>
                             <label for="#">EMAIL</label>
                         </div>
-                        <div class="input-contenedor">
+                        <div class="input-contenedor-registro">
                             <input type="password" required>
                             <label for="#">CONTRASEÑA</label>
                         </div>
-                        <div class="olvidar">
-                            <label for="#">
-                                <a href="#">Olvide la contraseña</a>
-                            </label>
+                        <div class="input-contenedor-registro">
+                            <input type="password" required>
+                            <label for="#">CONFIRME CONTRASEÑA</label>
                         </div>
                     </form>
                     <div class="boton">
-                        <button>iniciar</button>
-                    </div>
-                    <div class="crear-cuenta">
-                        <p>no tengo cuenta <a href="../pages/registrate.html">Crear cuenta</a></p>
+                        <a href=""><button>regristrar</button></a>
                     </div>
                 </div>
             </div>
         </section>
-        
-           
-        
-        
-    
-    </main>
-
     <footer class="pie-pagina">
-            <a href="../index.html"><img src="../assets/img/logo.marca.png" width="100px" alt="logo-marca"></a>
+        <a href="../index.html"><img src="../assets/img/logo.marca.png" width="100px" alt="logo-marca"></a>
     
         <div >
             <ul class="menu-pie">
@@ -91,4 +88,4 @@
 
     
 </body>
-</html>    
+</html>        

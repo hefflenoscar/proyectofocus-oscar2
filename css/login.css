@@ -12,7 +12,7 @@
 
 .contenedor{
     width: 25rem;
-    border: 2px solid black;
+    border: 2px solid rgba(0, 0, 0, 0.739);
     border-radius: .625rem;
     backdrop-filter: blur(20px);
     height: 25rem;
@@ -26,11 +26,13 @@
     font-size: 2.3rem;
     text-align: center;
     margin-bottom: 1.25rem;
+    color: rgba(0, 0, 0, 0.739);
 }
 
 .input-contenedor{
     margin: 1.875rem 0;
     width: 18.75rem;
+    color: rgba(0, 0, 0, 0.739);
 }
 
 .input-contenedor input{
@@ -52,7 +54,7 @@
 
 .boton button{
     width: 75%;
-    color: black;
+    color: rgba(0, 0, 0, 0.739);
 }
 
 .crear-cuenta p {
