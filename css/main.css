@@ -1,4 +1,4 @@
-main section div h1{
+main section .envios{
     background-color: #ffc7e995;  
     text-align: center;
     color: #8314e4ac;
@@ -232,3 +232,9 @@ section div button a{
     height: 500px;
 
     }
+
+    .activo{
+        color: white;
+
+    }
+
