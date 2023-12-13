@@ -7,16 +7,16 @@ main section .envios{
 
 .byhefflen{
     
-    display: flex;
-    width: 100%;
-    height: 250px;
-    background-image: url(../assets/img/filipp-romanovski-RiKKpNytUhI-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
-    justify-content: center;
-    align-items: center;
-    filter:saturate(65%)
+        display: flex;
+        width: 100%;
+        height: 250px;
+        background-image: url(../assets/img/filipp-romanovski-RiKKpNytUhI-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+        justify-content: center;
+        align-items: center;
+        filter:saturate(65%)
 }
 
 .byhefflen h2{
@@ -152,11 +152,12 @@ section div button a{
     color: #440978c2;
 }
 
-    .ca1{background-color: #fff3dac4;
+    .ca1{
+        background-color: #fff3dac4;
         text-align: center;
-    color: #440978;
-    grid-column: 1/2;
-    grid-row: 1/2;
+        color: #440978;
+        grid-column: 1/2;
+        grid-row: 1/2;
 
     }
     .ca2{background-color: #fff3dac4;
